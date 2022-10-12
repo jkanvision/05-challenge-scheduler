@@ -30,78 +30,51 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="table-responsive">
-        <table class="table table-bordered custom-table">
-          <tbody>
-            <tr>
-              <th scope="row" class="hour time-block">9:00 AM</th>
-              <td class="textarea">
-                <input class="form-control-plaintext form-control" type="text" placeholder="">
-              </td>
-              <td class="saveBtn"></td>
-            </tr>
-            <tr>
-              <th scope="row" class="hour time-block">10:00 AM</th>
-              <td class="textarea">
-                <input class="form-control-plaintext form-control" type="text" placeholder="">
-              </td>
-              <td class="saveBtn"></td>
-            </tr>
-            <tr>
-              <th scope="row" class="hour time-block">11:00 AM</th>
-              <td class="textarea">
-                <input class="form-control-plaintext form-control" type="text" placeholder="">
-              </td>
-              <td class="saveBtn"></td>
-            </tr>
-            <tr>
-              <th scope="row" class="hour time-block">12:00 PM</th>
-              <td class="textarea">
-                <input class="form-control-plaintext form-control" type="text" placeholder="">
-              </td>
-              <td class="saveBtn"></td>
-            </tr>
-            <tr>
-              <th scope="row" class="hour time-block">1:00 PM</th>
-              <td class="textarea">
-                <input class="form-control-plaintext form-control" type="text" placeholder="">
-              </td>
-              <td class="saveBtn"></td>
-            </tr>
-            <tr>
-              <th scope="row" class="hour time-block">2:00 PM</th>
-              <td class="textarea">
-                <input class="form-control-plaintext form-control" type="text" placeholder="">
-              </td>
-              <td class="saveBtn"></td>
-            </tr>
-            <tr>
-              <th scope="row" class="hour time-block">3:00 PM</th>
-              <td class="textarea">
-                <input class="form-control-plaintext form-control" type="text" placeholder="">
-              </td>
-              <td class="saveBtn"></td>
-            </tr>
-            <tr>
-              <th scope="row" class="hour time-block">4:00 PM</th>
-              <td class="textarea">
-                <input class="form-control-plaintext form-control" type="text" placeholder="">
-              </td>
-              <td class="saveBtn"></td>
-            </tr>
-            <tr>
-              <th scope="row" class="hour time-block">5:00 PM</th>
-              <td class="textarea">
-                <input class="form-control-plaintext form-control" type="text" placeholder="">
-              </td>
-              <td class="saveBtn"></td>
-            </tr>
-          </tbody>
-        </table>
-      </div> 
-     
-        
-        
+      <div id="hour-9" class="row time-block" value="9">
+        <div class="col-md-1 hour">9AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">Save</button>
+      </div>
+      <div id="hour-10" class="row time-block" value="10">
+        <div class="col-md-1 hour">10AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">Save</button>
+      </div>
+      <div id="hour-11" class="row time-block" value="11">
+        <div class="col-md-1 hour">11AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">Save</button>
+      </div>
+      <div id="hour-12" class="row time-block" value="12">
+        <div class="col-md-1 hour">12PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">Save</button>
+      </div>
+      <div id="hour-13" class="row time-block" value="13">
+        <div class="col-md-1 hour">1PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">Save</button>
+      </div>
+      <div id="hour-14" class="row time-block present" value="14">
+        <div class="col-md-1 hour">2PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">Save</button>
+      </div>
+      <div id="hour-15" class="row time-block future" value="15">
+        <div class="col-md-1 hour">3PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">Save</button>
+      </div>
+      <div id="hour-16" class="row time-block future" value="16">
+        <div class="col-md-1 hour">4PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">Save</button>
+      </div>
+      <div id="hour-17" class="row time-block future" value="17">
+        <div class="col-md-1 hour">5PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">Save</button>
+      </div>  
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
