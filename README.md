@@ -12,8 +12,8 @@ The "Work Day Scheduler" webpage provides users with a form to store and edit da
 
 
 
-![Password Generator Webpage Screenshot](./assets/images/work-day-scheduler-scrnshot.png)
+![Workday Scheduler Screenshot](./assets/images/work-day-scheduler-scrnshot.png)
 &nbsp;\
 &nbsp;\
 &nbsp;\
-[Password Generator Webpage](https://jkanvision.github.io/05-challenge-scheduler/)
+[Workday Scheduler Webpage](https://jkanvision.github.io/05-challenge-scheduler/)
